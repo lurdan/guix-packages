@@ -5,9 +5,9 @@
   #:use-module (guix build-system font)
   #:use-module (gnu packages fontutils))
 
-(define-public font-hackgen
+(define-public font-hackgen-nerd
   (package
-    (name "font-hackgen")
+    (name "font-hackgen-nerd")
     (version "2.2.2")
     (home-page "https://github.com/yuru7/HackGen")
     (source (origin
@@ -15,13 +15,13 @@
               (uri (string-append
                     "https://github.com/yuru7/HackGen/releases/download/v"
                     version
-                    "/HackGen_v"
+                    "/HackGenNerd_v"
                     version
                     ".zip"))
               (sha256
                (base32
-                "0v3mmzn9svmwx1abd3j4j7rjhr1444kwvdswbqyg0iaqw6wzdn0v"))))
+                "1wnsx8snakqs2jb92mv90f8y9i01fj6sp2fmh672dvrzs8k49avg"))))
     (build-system font-build-system)
-    (synopsis "Hackgen Japanese TrueType font")
+    (synopsis "HackgenNerd Japanese TrueType font")
     (description "")
     (license license:silofl1.1)))
