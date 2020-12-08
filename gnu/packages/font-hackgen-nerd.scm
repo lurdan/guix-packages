@@ -1,4 +1,4 @@
-(define-module (gnu packages font-hackgen)
+(define-module (gnu packages font-hackgen-nerd)
   #:use-module (guix packages)
   #:use-module (guix download)
   #:use-module ((guix licenses) #:prefix license:)
