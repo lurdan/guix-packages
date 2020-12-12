@@ -18,6 +18,10 @@
                      version
                      ".zip"
                      ))
+              (file-name (string-append
+                          "GenEiGothicAll-"
+                          version
+                          ".zip.gz"))
               (sha256
                (base32
                 "0ggryz1pd7x8g3llcjpkyy6c4mrz3f9iq2b94q0m0k4yq6yab2wa"))))
